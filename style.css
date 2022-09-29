@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Pokemon';
+    src: url('Pokemon\ GB.ttf') format('truetype')
+}
+form {
+    width: 200px;
+    margin: 0 auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+body{
+        background: linear-gradient(to bottom, #fff,  #73eff3);
+        min-height: 100vh;
+
+
+}
+
+header{
+    height: 200px;
+ 
+}
+.pokedex-img{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding: 20px
+  }
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: 4px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #FFF;
+    border: 1px  dashed black;
+    background: transparent;
+
+}.poke-name{
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+.img-container {
+    position: relative;
+    width: 180px;
+    margin: 0px auto;
+    /*border: 1px solid black;*/
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+  
+}
+
+.poke-types div {
+    display: inline-block;
+    margin: 5px auto;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid black;
+    text-transform: capitalize;
+
+
+}
+
+.poke-img {
+    display: block;
+    width: 130px;
+    margin: 0 auto;
+    /*border: 1px solid black;*/
+  
+
+}
+
+@media screen and (max-width: 768px){
+
+    header .pokedex-img{
+        width: 100%;
+    }
+}
+
